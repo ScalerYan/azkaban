@@ -30,3 +30,7 @@ Documentation
 For Azkaban documentation, please go to [Azkaban Project Site](http://azkaban.github.io). The source code for the documentation is in the [gh-pages branch](https://github.com/azkaban/azkaban/tree/gh-pages).
 
 For help, please visit the Azkaban Google Group: [Azkaban Group](https://groups.google.com/forum/?fromgroups#!forum/azkaban-dev)
+
+add azkaban-common/src/main/java/azkaban/constants/LogProperties.java
+modify azkaban-common/src/main/java/azkaban/utils/Emailer.java 方法 sendErrorEmail
+add azkaban-common/src/main/java/azkaban/utils/FileIOUtils.java 方法 findFiles
